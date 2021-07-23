@@ -32,7 +32,7 @@
             margin-top: 18px;
             margin-bottom: 12px;
             z-index: 10;
-            background: url('/imagenes/logo-mobile.svg');
+            background: url('/gifos/imagenes/logo-mobile.svg');
             background-repeat: no-repeat;
             background-size:contain;
         }
@@ -166,10 +166,10 @@ header{
             margin: 29px 22px 17px 22px;
             width: 56px;
             height: 49px;
-            background: url('/imagenes/logo-mobile.svg');
+            background: url('/gifos/imagenes/logo-mobile.svg');
             background-repeat: no-repeat;
             body.dark &{
-                background: url('/imagenes/logo-mobile-modo-noct.svg');
+                background: url('/gifos/imagenes/logo-mobile-modo-noct.svg');
                  background-repeat: no-repeat;
 
                 width: 56px;
@@ -186,10 +186,10 @@ header{
             color: #572EE5;
             display: none;
             cursor: pointer;
-            background: url('/imagenes/close.svg');
+            background: url('/gifos/imagenes/close.svg');
             background-repeat: no-repeat;
             body.dark &{
-            background: url('/imagenes/close-modo-noct.svg');
+            background: url('/gifos/imagenes/close-modo-noct.svg');
             background-repeat: no-repeat;
 
             }
@@ -201,10 +201,10 @@ header{
             color: #572EE5;
             margin:52px 27px 32px 0px;
             cursor: pointer;
-            background: url('/imagenes/burger.svg');
+            background: url('/gifos/imagenes/burger.svg');
             background-repeat: no-repeat;
             body.dark &{
-            background: url('/imagenes/burger-modo-noct.svg');
+            background: url('/gifos/imagenes/burger-modo-noct.svg');
             background-repeat: no-repeat;
 
             }
@@ -261,29 +261,29 @@ header{
                     height: 54px;
                     display: none;
                     border: none;
-                    background:url('/imagenes/button-crear-gifo.svg') ;
+                    background:url('/gifos/imagenes/button-crear-gifo.svg') ;
                     transition: 1s ease-out all;
                     &:hover{
-                        background: url('/imagenes/CTA-crear-gifo-hover.svg');
+                        background: url('/gifos/imagenes/CTA-crear-gifo-hover.svg');
                         background-repeat: no-repeat;
 
                     
                     }
                     &:active{ 
-                        background: url('/imagenes/CTA-crear-gifo-active.svg');
+                        background: url('/gifos/imagenes/CTA-crear-gifo-active.svg');
                         background-repeat: no-repeat;
 
                     }
                     body.dark &{
-                        background: url('/imagenes/CTA-crear-gifo-modo-noc.svg');
+                        background: url('/gifos/imagenes/CTA-crear-gifo-modo-noc.svg');
                         background-repeat: no-repeat;
 
                         &:hover{
-                            background: url('/imagenes/CTA-crear-gifo-hover-modo-noc.svg');
+                            background: url('/gifos/imagenes/CTA-crear-gifo-hover-modo-noc.svg');
                             background-repeat: no-repeat;
                         }
                         &:active{
-                            background: url('/imagenes/CTA-crear-gifo-active-modo-noc.svg');
+                            background: url('/gifos/imagenes/CTA-crear-gifo-active-modo-noc.svg');
                             background-repeat: no-repeat;
 
                         }

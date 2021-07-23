@@ -68,20 +68,20 @@ footer{
                 .facebook{
                     width: 21px;
                     height: 21px;
-                    background: url('/imagenes/icon_facebook.svg');
+                    background: url('/gifos/imagenes/icon_facebook.svg');
                     background-repeat: no-repeat;
                     margin-top: 22px;
                     margin-left: 30px;
 
                     &:hover{
-                        background: url('/imagenes/icon_facebook_hover.svg');
+                        background: url('/gifos/imagenes/icon_facebook_hover.svg');
                         background-repeat: no-repeat;
                         cursor: pointer;
 
                     }
                     body.dark &{
                         &:hover{
-                            background: url('/imagenes/icon_facebook_noc.svg');
+                            background: url('/gifos/imagenes/icon_facebook_noc.svg');
                             background-repeat: no-repeat;
                         cursor: pointer;
 
@@ -91,17 +91,17 @@ footer{
                 }
                 .instagram{
                     @extend .facebook;
-                    background: url('/imagenes/icon_instagram.svg');
+                    background: url('/gifos/imagenes/icon_instagram.svg');
                     background-repeat: no-repeat;
                     &:hover{
-                        background: url('/imagenes/icon_instagram-hover.svg');
+                        background: url('/gifos/imagenes/icon_instagram-hover.svg');
                         background-repeat: no-repeat;
                         cursor: pointer;
 
                     }
                     body.dark &{
                        &:hover{
-                        background: url('/imagenes/icon_instagram_noc.svg');
+                        background: url('/gifos/imagenes/icon_instagram_noc.svg');
                         background-repeat: no-repeat;
                         cursor: pointer;
 
@@ -112,17 +112,17 @@ footer{
                 }
                 .twitter{
                     @extend .facebook;
-                    background: url('/imagenes/icon-twitter.svg');
+                    background: url('/gifos/imagenes/icon-twitter.svg');
                     background-repeat: no-repeat;
                     &:hover{
-                        background: url('/imagenes/icon-twitter-hover.svg');
+                        background: url('/gifos/imagenes/icon-twitter-hover.svg');
                         background-repeat: no-repeat;
                         cursor: pointer;
 
                     }
                     body.dark &{
                         &:hover{
-                            background: url('/imagenes/icon_twitter_noc.svg');
+                            background: url('/gifos/imagenes/icon_twitter_noc.svg');
                             background-repeat: no-repeat;
                             cursor: pointer;
 

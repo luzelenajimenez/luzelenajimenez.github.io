@@ -161,13 +161,13 @@
        .pelicula{
            width: 149px;
            height: 88px;
-           background: url('/imagenes/pelicula.svg');
+           background: url('/gifos/imagenes/pelicula.svg');
            background-repeat: no-repeat;
            position: absolute;
            right: -70px;
            top: -40px;
            body.dark &{
-               background: url('/imagenes/pelicula-modo-noc.svg');
+               background: url('/gifos/imagenes/pelicula-modo-noc.svg');
                background-repeat: no-repeat;
            }
        }
@@ -274,18 +274,18 @@
              align-items: center;
              min-width: 100px;
              .camara{
-                 background: url('/imagenes/camara.svg');
+                 background: url('/gifos/imagenes/camara.svg');
                  background-repeat: no-repeat;
                  width: 123px;
                  height: 163px;
                  margin-top: -25px;
                  body.dark &{
-                     background: url('/imagenes/camara-modo-noc.svg');
+                     background: url('/gifos/imagenes/camara-modo-noc.svg');
                      background-repeat: no-repeat;
                  }
              }
              .luz{
-                 background: url('/imagenes/element-luz-camara.svg');
+                 background: url('/gifos/imagenes/element-luz-camara.svg');
                  background-repeat: no-repeat;
                  width: 91px;
                  height: 151px;
@@ -295,7 +295,7 @@
                  animation-iteration-count: infinite;
  
                  body.dark &{
-                     background: url('/imagenes/element-luz-camara.svg');
+                     background: url('/gifos/imagenes/element-luz-camara.svg');
                      background-repeat: no-repeat;
                  }
              }
@@ -395,14 +395,14 @@
                          z-index: 100;
                          width: 22px;
                          height: 22px;
-                         background: url('/imagenes/loader.svg');
+                         background: url('/gifos/imagenes/loader.svg');
                         
                          animation-name: rotacion;
                          animation-duration: 5s;
                          animation-iteration-count: infinite;
                          &.ok{
                              @extend .loading;
-                             background: url('/imagenes/ok.svg');
+                             background: url('/gifos/imagenes/ok.svg');
                              background-repeat: no-repeat;
                              transition: ease-in-out;
                              animation-name: escalar;
@@ -447,11 +447,11 @@
                          margin-top: -100%;
                          width: 40px;
                          height: 40px;
-                         background: url('/imagenes/icon-download.svg');
+                         background: url('/gifos/imagenes/icon-download.svg');
                          background-repeat: no-repeat;
                          transition: 0.5s  ease-in-out all;
                          &:hover{
-                             background: url('/imagenes/icon-download-hover.svg');
+                             background: url('/gifos/imagenes/icon-download-hover.svg');
                              background-repeat: no-repeat;
                          }
                          &.ok{
@@ -469,16 +469,16 @@
                          margin-top: -100%;
                          width: 40px;
                          height: 40px;
-                         background: url('/imagenes/icon-link-normal.svg');
+                         background: url('/gifos/imagenes/icon-link-normal.svg');
                          background-repeat: no-repeat;
                          &:hover{
-                             background: url('/imagenes/icon-link-hover.svg');
+                             background: url('/gifos/imagenes/icon-link-hover.svg');
                              background-repeat: no-repeat;
                              margin-right: 0;
                          }
                          &.ok{
                             display: block;
-                             background: url('/imagenes/icon-link-hover.svg');
+                             background: url('/gifos/imagenes/icon-link-hover.svg');
                              background-repeat: no-repeat;
                              margin: 0;
                              transition: 1s ease-in-out all;

@@ -44,17 +44,17 @@
                     left: 50px;
                     margin-top: 105px;
                     display: flex;position: absolute;
-                    background:url('/imagenes/button-slider-left.svg') ;
+                    background:url('/gifos/imagenes/button-slider-left.svg') ;
                     background-repeat: no-repeat;
 
                     
                     &:hover{
-                        background: url('/imagenes/button-slider-left-hover.svg');
+                        background: url('/gifos/imagenes/button-slider-left-hover.svg');
                         background-repeat: no-repeat;
                         cursor: pointer;
                     }
                     body.dark &{
-                        background: url('/imagenes/button-slider-left-md-noct.svg');
+                        background: url('/gifos/imagenes/button-slider-left-md-noct.svg');
                         background-repeat: no-repeat;
                     }
                 }
@@ -69,17 +69,17 @@
                     display: flex;
                     position: absolute;
                     right: 30px;
-                    background:url('/imagenes/Button-Slider-right.svg') ;
+                    background:url('/gifos/imagenes/Button-Slider-right.svg') ;
                     background-repeat: no-repeat;
 
                     
                     &:hover{
-                        background: url('/imagenes/Button-Slider-right-hover.svg');
+                        background: url('/gifos/imagenes/Button-Slider-right-hover.svg');
                         background-repeat: no-repeat;
                         cursor: pointer;
                     }
                     body.dark &{
-                        background: url('/imagenes/button-slider-right-md-noct.svg');
+                        background: url('/gifos/imagenes/button-slider-right-md-noct.svg');
                         background-repeat: no-repeat;
                     }
                 }
@@ -122,16 +122,16 @@
                                     .icon-favorito{
                                         width: 35px;
                                         height: 35px;
-                                        background: url('/imagenes/icon-fav.svg');
+                                        background: url('/gifos/imagenes/icon-fav.svg');
                                         background-repeat: no-repeat;
                                         &:hover{
-                                            background: url('/imagenes/icon-fav-hover.svg');
+                                            background: url('/gifos/imagenes/icon-fav-hover.svg');
                                             background-repeat: no-repeat;
                                         }
                                         &.actived{
                                             width: 32.5px;
                                             height: 32.5px;
-                                            background: url('/imagenes/icon-fav-active.svg') #ffffff;
+                                            background: url('/gifos/imagenes/icon-fav-active.svg') #ffffff;
                                             background-repeat: no-repeat;
                                             background-position: center;
                                             border-radius: 5px;
@@ -142,20 +142,20 @@
                                     .icon-descargar{
                                         width: 35px;
                                         height: 35px;
-                                        background: url('/imagenes/icon-download.svg');
+                                        background: url('/gifos/imagenes/icon-download.svg');
                                         background-repeat: no-repeat;
                                         &:hover{
-                                            background: url('/imagenes/icon-download-hover.svg');
+                                            background: url('/gifos/imagenes/icon-download-hover.svg');
                                             background-repeat: no-repeat;
                                         }
                                     }
                                     .icon-escalar{ 
                                         width: 35px;
                                         height: 35px;
-                                        background: url('/imagenes/icon-max-normal.svg');
+                                        background: url('/gifos/imagenes/icon-max-normal.svg');
                                         background-repeat: no-repeat;
                                         &:hover{
-                                            background: url('/imagenes/icon-max-hover.svg');
+                                            background: url('/gifos/imagenes/icon-max-hover.svg');
                                             background-repeat: no-repeat;
                                         }
         
