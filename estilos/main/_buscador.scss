@@ -81,12 +81,12 @@
                        display: none;
                        cursor: pointer;
                        transition: 1s ease all;
-                       background: url('/gifos/imagenes/close.svg');
+                       background: url('/imagenes/close.svg');
                        background-repeat: no-repeat;
                        width: 14px;
                        height: 14px;
                        body.dark &{
-                           background: url('/gifos/imagenes/close-modo-noct.svg');
+                           background: url('/imagenes/close-modo-noct.svg');
                            width: 14px;
                            height: 14px;
                            background-repeat: no-repeat;
@@ -98,10 +98,10 @@
                        display: none;
                        width: 20px;
                        height: 20px;
-                       background: url('/gifos/imagenes/icon-search.svg');
+                       background: url('/imagenes/icon-search.svg');
                        background-repeat: no-repeat;
                        body.dark &{
-                        background: url('/gifos/imagenes/search-suge.svg');
+                        background: url('/imagenes/search-suge.svg');
                         background-repeat: no-repeat;
 
                        }
@@ -110,11 +110,11 @@
                         transition: 1s ease all;
                         width: 20px;
                         height: 20px;
-                        background: url('/gifos/imagenes/icon-search.svg');
+                        background: url('/imagenes/icon-search.svg');
                         background-repeat: no-repeat;
                         cursor: pointer;
                         body.dark &{
-                            background: url('/gifos/imagenes/icon-search-modo-noct.svg');
+                            background: url('/imagenes/icon-search-modo-noct.svg');
                             background-repeat: no-repeat;
                             cursor: pointer;
 
@@ -147,7 +147,7 @@
                            width: 18px;
                            height: 18px;
                           div{
-                              background: url('/gifos/imagenes/search-suge.svg');
+                              background: url('/imagenes/search-suge.svg');
                               background-repeat: no-repeat;
                               width: 100%;
                               height: 100%;

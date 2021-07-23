@@ -107,54 +107,54 @@ footer .footer .contenedor .contenedor-redes-sociales {
 footer .footer .contenedor .contenedor-redes-sociales .facebook, footer .footer .contenedor .contenedor-redes-sociales .instagram, footer .footer .contenedor .contenedor-redes-sociales .twitter {
   width: 21px;
   height: 21px;
-  background: url("/gifos/imagenes/icon_facebook.svg");
+  background: url("/imagenes/icon_facebook.svg");
   background-repeat: no-repeat;
   margin-top: 22px;
   margin-left: 30px;
 }
 
 footer .footer .contenedor .contenedor-redes-sociales .facebook:hover, footer .footer .contenedor .contenedor-redes-sociales .instagram:hover, footer .footer .contenedor .contenedor-redes-sociales .twitter:hover {
-  background: url("/gifos/imagenes/icon_facebook_hover.svg");
+  background: url("/imagenes/icon_facebook_hover.svg");
   background-repeat: no-repeat;
   cursor: pointer;
 }
 
 body.dark footer .footer .contenedor .contenedor-redes-sociales .facebook:hover, body.dark footer .footer .contenedor .contenedor-redes-sociales .instagram:hover, body.dark footer .footer .contenedor .contenedor-redes-sociales .twitter:hover {
-  background: url("/gifos/imagenes/icon_facebook_noc.svg");
+  background: url("/imagenes/icon_facebook_noc.svg");
   background-repeat: no-repeat;
   cursor: pointer;
 }
 
 footer .footer .contenedor .contenedor-redes-sociales .instagram {
-  background: url("/gifos/imagenes/icon_instagram.svg");
+  background: url("/imagenes/icon_instagram.svg");
   background-repeat: no-repeat;
 }
 
 footer .footer .contenedor .contenedor-redes-sociales .instagram:hover {
-  background: url("/gifos/imagenes/icon_instagram-hover.svg");
+  background: url("/imagenes/icon_instagram-hover.svg");
   background-repeat: no-repeat;
   cursor: pointer;
 }
 
 body.dark footer .footer .contenedor .contenedor-redes-sociales .instagram:hover {
-  background: url("/gifos/imagenes/icon_instagram_noc.svg");
+  background: url("/imagenes/icon_instagram_noc.svg");
   background-repeat: no-repeat;
   cursor: pointer;
 }
 
 footer .footer .contenedor .contenedor-redes-sociales .twitter {
-  background: url("/gifos/imagenes/icon-twitter.svg");
+  background: url("/imagenes/icon-twitter.svg");
   background-repeat: no-repeat;
 }
 
 footer .footer .contenedor .contenedor-redes-sociales .twitter:hover {
-  background: url("/gifos/imagenes/icon-twitter-hover.svg");
+  background: url("/imagenes/icon-twitter-hover.svg");
   background-repeat: no-repeat;
   cursor: pointer;
 }
 
 body.dark footer .footer .contenedor .contenedor-redes-sociales .twitter:hover {
-  background: url("/gifos/imagenes/icon_twitter_noc.svg");
+  background: url("/imagenes/icon_twitter_noc.svg");
   background-repeat: no-repeat;
   cursor: pointer;
 }
@@ -204,7 +204,7 @@ body.dark footer {
     margin-top: 18px;
     margin-bottom: 12px;
     z-index: 10;
-    background: url("/gifos/imagenes/logo-mobile.svg");
+    background: url("/imagenes/logo-mobile.svg");
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -340,12 +340,12 @@ header .contenedor .nav-bar-logo {
   margin: 29px 22px 17px 22px;
   width: 56px;
   height: 49px;
-  background: url("/gifos/imagenes/logo-mobile.svg");
+  background: url("/imagenes/logo-mobile.svg");
   background-repeat: no-repeat;
 }
 
 body.dark header .contenedor .nav-bar-logo {
-  background: url("/gifos/imagenes/logo-mobile-modo-noct.svg");
+  background: url("/imagenes/logo-mobile-modo-noct.svg");
   background-repeat: no-repeat;
   width: 56px;
   height: 49px;
@@ -362,12 +362,12 @@ header .contenedor .btn-x {
   color: #572EE5;
   display: none;
   cursor: pointer;
-  background: url("/gifos/imagenes/close.svg");
+  background: url("/imagenes/close.svg");
   background-repeat: no-repeat;
 }
 
 body.dark header .contenedor .btn-x {
-  background: url("/gifos/imagenes/close-modo-noct.svg");
+  background: url("/imagenes/close-modo-noct.svg");
   background-repeat: no-repeat;
 }
 
@@ -377,12 +377,12 @@ header .contenedor .btn-burguer {
   color: #572EE5;
   margin: 52px 27px 32px 0px;
   cursor: pointer;
-  background: url("/gifos/imagenes/burger.svg");
+  background: url("/imagenes/burger.svg");
   background-repeat: no-repeat;
 }
 
 body.dark header .contenedor .btn-burguer {
-  background: url("/gifos/imagenes/burger-modo-noct.svg");
+  background: url("/imagenes/burger-modo-noct.svg");
   background-repeat: no-repeat;
 }
 
@@ -455,33 +455,33 @@ header .contenedor .menu ul li .crear-gifo {
   height: 54px;
   display: none;
   border: none;
-  background: url("/gifos/imagenes/button-crear-gifo.svg");
+  background: url("/imagenes/button-crear-gifo.svg");
   -webkit-transition: 1s ease-out all;
   transition: 1s ease-out all;
 }
 
 header .contenedor .menu ul li .crear-gifo:hover {
-  background: url("/gifos/imagenes/CTA-crear-gifo-hover.svg");
+  background: url("/imagenes/CTA-crear-gifo-hover.svg");
   background-repeat: no-repeat;
 }
 
 header .contenedor .menu ul li .crear-gifo:active {
-  background: url("/gifos/imagenes/CTA-crear-gifo-active.svg");
+  background: url("/imagenes/CTA-crear-gifo-active.svg");
   background-repeat: no-repeat;
 }
 
 body.dark header .contenedor .menu ul li .crear-gifo {
-  background: url("/gifos/imagenes/CTA-crear-gifo-modo-noc.svg");
+  background: url("/imagenes/CTA-crear-gifo-modo-noc.svg");
   background-repeat: no-repeat;
 }
 
 body.dark header .contenedor .menu ul li .crear-gifo:hover {
-  background: url("/gifos/imagenes/CTA-crear-gifo-hover-modo-noc.svg");
+  background: url("/imagenes/CTA-crear-gifo-hover-modo-noc.svg");
   background-repeat: no-repeat;
 }
 
 body.dark header .contenedor .menu ul li .crear-gifo:active {
-  background: url("/gifos/imagenes/CTA-crear-gifo-active-modo-noc.svg");
+  background: url("/imagenes/CTA-crear-gifo-active-modo-noc.svg");
   background-repeat: no-repeat;
 }
 
@@ -737,7 +737,7 @@ body.dark .main .botones .steps .step-actived:hover {
 .main .botones .pelicula {
   width: 149px;
   height: 88px;
-  background: url("/gifos/imagenes/pelicula.svg");
+  background: url("/imagenes/pelicula.svg");
   background-repeat: no-repeat;
   position: absolute;
   right: -70px;
@@ -745,7 +745,7 @@ body.dark .main .botones .steps .step-actived:hover {
 }
 
 body.dark .main .botones .pelicula {
-  background: url("/gifos/imagenes/pelicula-modo-noc.svg");
+  background: url("/imagenes/pelicula-modo-noc.svg");
   background-repeat: no-repeat;
 }
 
@@ -927,7 +927,7 @@ body.dark .main .start-stop .boton-comenzar .comenzar:hover, body.dark .main .st
 }
 
 .main .contenedor-crear-gifo .camara {
-  background: url("/gifos/imagenes/camara.svg");
+  background: url("/imagenes/camara.svg");
   background-repeat: no-repeat;
   width: 123px;
   height: 163px;
@@ -935,12 +935,12 @@ body.dark .main .start-stop .boton-comenzar .comenzar:hover, body.dark .main .st
 }
 
 body.dark .main .contenedor-crear-gifo .camara {
-  background: url("/gifos/imagenes/camara-modo-noc.svg");
+  background: url("/imagenes/camara-modo-noc.svg");
   background-repeat: no-repeat;
 }
 
 .main .contenedor-crear-gifo .luz {
-  background: url("/gifos/imagenes/element-luz-camara.svg");
+  background: url("/imagenes/element-luz-camara.svg");
   background-repeat: no-repeat;
   width: 91px;
   height: 151px;
@@ -955,7 +955,7 @@ body.dark .main .contenedor-crear-gifo .camara {
 }
 
 body.dark .main .contenedor-crear-gifo .luz {
-  background: url("/gifos/imagenes/element-luz-camara.svg");
+  background: url("/imagenes/element-luz-camara.svg");
   background-repeat: no-repeat;
 }
 
@@ -1079,7 +1079,7 @@ body.dark .main .contenedor-crear-gifo .luz {
   z-index: 100;
   width: 22px;
   height: 22px;
-  background: url("/gifos/imagenes/loader.svg");
+  background: url("/imagenes/loader.svg");
   -webkit-animation-name: rotacion;
           animation-name: rotacion;
   -webkit-animation-duration: 5s;
@@ -1089,7 +1089,7 @@ body.dark .main .contenedor-crear-gifo .luz {
 }
 
 .main .contenedor-crear-gifo .contenedor-viewer .contenedor-preview .background .ok.loading {
-  background: url("/gifos/imagenes/ok.svg");
+  background: url("/imagenes/ok.svg");
   background-repeat: no-repeat;
   -webkit-transition: ease-in-out;
   transition: ease-in-out;
@@ -1148,14 +1148,14 @@ body.dark .main .contenedor-crear-gifo .luz {
   margin-top: -100%;
   width: 40px;
   height: 40px;
-  background: url("/gifos/imagenes/icon-download.svg");
+  background: url("/imagenes/icon-download.svg");
   background-repeat: no-repeat;
   -webkit-transition: 0.5s  ease-in-out all;
   transition: 0.5s  ease-in-out all;
 }
 
 .main .contenedor-crear-gifo .contenedor-viewer .contenedor-preview .icons .download:hover {
-  background: url("/gifos/imagenes/icon-download-hover.svg");
+  background: url("/imagenes/icon-download-hover.svg");
   background-repeat: no-repeat;
 }
 
@@ -1175,19 +1175,19 @@ body.dark .main .contenedor-crear-gifo .luz {
   margin-top: -100%;
   width: 40px;
   height: 40px;
-  background: url("/gifos/imagenes/icon-link-normal.svg");
+  background: url("/imagenes/icon-link-normal.svg");
   background-repeat: no-repeat;
 }
 
 .main .contenedor-crear-gifo .contenedor-viewer .contenedor-preview .icons .link:hover {
-  background: url("/gifos/imagenes/icon-link-hover.svg");
+  background: url("/imagenes/icon-link-hover.svg");
   background-repeat: no-repeat;
   margin-right: 0;
 }
 
 .main .contenedor-crear-gifo .contenedor-viewer .contenedor-preview .icons .link.ok {
   display: block;
-  background: url("/gifos/imagenes/icon-link-hover.svg");
+  background: url("/imagenes/icon-link-hover.svg");
   background-repeat: no-repeat;
   margin: 0;
   -webkit-transition: 1s ease-in-out all;
@@ -1331,12 +1331,12 @@ body.dark .main .favoritos .modal {
   right: 45px;
   width: 30px;
   height: 30px;
-  background: url("/gifos/imagenes/close.svg");
+  background: url("/imagenes/close.svg");
   background-repeat: no-repeat;
 }
 
 body.dark .main .favoritos .modal .close-modal {
-  background: url("/gifos/imagenes/close-modo-noct.svg");
+  background: url("/imagenes/close-modo-noct.svg");
   background-repeat: no-repeat;
 }
 
@@ -1375,19 +1375,19 @@ body.dark .main .favoritos .modal .contenedor-tools-max .informacion .gift-titul
 .main .favoritos .modal .contenedor-tools-max .icon-tools .icon-favorito-modal {
   width: 35px;
   height: 35px;
-  background: url("/gifos/imagenes/icon-fav.svg");
+  background: url("/imagenes/icon-fav.svg");
   background-repeat: no-repeat;
 }
 
 .main .favoritos .modal .contenedor-tools-max .icon-tools .icon-favorito-modal:hover {
-  background: url("/gifos/imagenes/icon-fav-hover.svg");
+  background: url("/imagenes/icon-fav-hover.svg");
   background-repeat: no-repeat;
 }
 
 .main .favoritos .modal .contenedor-tools-max .icon-tools .icon-favorito-modal.actived {
   width: 32.5px;
   height: 32.5px;
-  background: url("/gifos/imagenes/icon-fav-active.svg") #ffffff;
+  background: url("/imagenes/icon-fav-active.svg") #ffffff;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 5px;
@@ -1396,12 +1396,12 @@ body.dark .main .favoritos .modal .contenedor-tools-max .informacion .gift-titul
 .main .favoritos .modal .contenedor-tools-max .icon-tools .icon-descargar {
   width: 35px;
   height: 35px;
-  background: url("/gifos/imagenes/icon-download.svg");
+  background: url("/imagenes/icon-download.svg");
   background-repeat: no-repeat;
 }
 
 .main .favoritos .modal .contenedor-tools-max .icon-tools .icon-descargar:hover {
-  background: url("/gifos/imagenes/icon-download-hover.svg");
+  background: url("/imagenes/icon-download-hover.svg");
   background-repeat: no-repeat;
 }
 
@@ -1482,36 +1482,36 @@ body.dark .main .favoritos .modal .contenedor-tools-max .informacion .gift-titul
 .main .favoritos .contenedor-resultados .gift .contenedor-info-tools .tools .icon-tools .icon-eliminar {
   width: 35px;
   height: 35px;
-  background: url("/gifos/imagenes/icon-trash-normal.svg");
+  background: url("/imagenes/icon-trash-normal.svg");
   background-repeat: no-repeat;
 }
 
 .main .favoritos .contenedor-resultados .gift .contenedor-info-tools .tools .icon-tools .icon-eliminar:hover {
-  background: url("/gifos/imagenes/icon-trash-hover.svg");
+  background: url("/imagenes/icon-trash-hover.svg");
   background-repeat: no-repeat;
 }
 
 .main .favoritos .contenedor-resultados .gift .contenedor-info-tools .tools .icon-tools .icon-descargar {
   width: 35px;
   height: 35px;
-  background: url("/gifos/imagenes/icon-download.svg");
+  background: url("/imagenes/icon-download.svg");
   background-repeat: no-repeat;
 }
 
 .main .favoritos .contenedor-resultados .gift .contenedor-info-tools .tools .icon-tools .icon-descargar:hover {
-  background: url("/gifos/imagenes/icon-download-hover.svg");
+  background: url("/imagenes/icon-download-hover.svg");
   background-repeat: no-repeat;
 }
 
 .main .favoritos .contenedor-resultados .gift .contenedor-info-tools .tools .icon-tools .icon-escalar {
   width: 35px;
   height: 35px;
-  background: url("/gifos/imagenes/icon-max-normal.svg");
+  background: url("/imagenes/icon-max-normal.svg");
   background-repeat: no-repeat;
 }
 
 .main .favoritos .contenedor-resultados .gift .contenedor-info-tools .tools .icon-tools .icon-escalar:hover {
-  background: url("/gifos/imagenes/icon-max-hover.svg");
+  background: url("/imagenes/icon-max-hover.svg");
   background-repeat: no-repeat;
 }
 
@@ -1727,12 +1727,12 @@ body.dark .main .mis-gifos .modal {
   right: 45px;
   width: 35px;
   height: 35px;
-  background: url("/gifos/imagenes/close.svg");
+  background: url("/imagenes/close.svg");
   background-repeat: no-repeat;
 }
 
 body.dark .main .mis-gifos .modal .close-modal {
-  background: url("/gifos/imagenes/close-modo-noct.svg");
+  background: url("/imagenes/close-modo-noct.svg");
   background-repeat: no-repeat;
 }
 
@@ -1763,20 +1763,20 @@ body.dark .main .mis-gifos .modal .close-modal {
 .main .mis-gifos .modal .contenedor-tools-max .icon-tools .icon-favorito-modal {
   width: 35px;
   height: 35px;
-  background: url("/gifos/imagenes/icon-fav.svg");
+  background: url("/imagenes/icon-fav.svg");
   background-repeat: no-repeat;
   cursor: pointer;
 }
 
 .main .mis-gifos .modal .contenedor-tools-max .icon-tools .icon-favorito-modal:hover {
-  background: url("/gifos/imagenes/icon-fav-hover.svg");
+  background: url("/imagenes/icon-fav-hover.svg");
   background-repeat: no-repeat;
 }
 
 .main .mis-gifos .modal .contenedor-tools-max .icon-tools .icon-favorito-modal.actived {
   width: 32.5px;
   height: 32.5px;
-  background: url("/gifos/imagenes/icon-fav-active.svg") #ffffff;
+  background: url("/imagenes/icon-fav-active.svg") #ffffff;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 5px;
@@ -1785,13 +1785,13 @@ body.dark .main .mis-gifos .modal .close-modal {
 .main .mis-gifos .modal .contenedor-tools-max .icon-tools .icon-descargar {
   width: 35px;
   height: 35px;
-  background: url("/gifos/imagenes/icon-download.svg");
+  background: url("/imagenes/icon-download.svg");
   background-repeat: no-repeat;
   cursor: pointer;
 }
 
 .main .mis-gifos .modal .contenedor-tools-max .icon-tools .icon-descargar:hover {
-  background: url("/gifos/imagenes/icon-download-hover.svg");
+  background: url("/imagenes/icon-download-hover.svg");
   background-repeat: no-repeat;
 }
 
@@ -1880,36 +1880,36 @@ body.dark .main .mis-gifos .modal .contenedor-tools-max .informacion .gift-titul
 .main .mis-gifos .contenedor-resultados .gift .contenedor-info-tools .tools .icon-tools .icon-eliminar {
   width: 35px;
   height: 35px;
-  background: url("/gifos/imagenes/icon-trash-normal.svg");
+  background: url("/imagenes/icon-trash-normal.svg");
   background-repeat: no-repeat;
 }
 
 .main .mis-gifos .contenedor-resultados .gift .contenedor-info-tools .tools .icon-tools .icon-eliminar:hover {
-  background: url("/gifos/imagenes/icon-trash-hover.svg");
+  background: url("/imagenes/icon-trash-hover.svg");
   background-repeat: no-repeat;
 }
 
 .main .mis-gifos .contenedor-resultados .gift .contenedor-info-tools .tools .icon-tools .icon-descargar {
   width: 35px;
   height: 35px;
-  background: url("/gifos/imagenes/icon-download.svg");
+  background: url("/imagenes/icon-download.svg");
   background-repeat: no-repeat;
 }
 
 .main .mis-gifos .contenedor-resultados .gift .contenedor-info-tools .tools .icon-tools .icon-descargar:hover {
-  background: url("/gifos/imagenes/icon-download-hover.svg");
+  background: url("/imagenes/icon-download-hover.svg");
   background-repeat: no-repeat;
 }
 
 .main .mis-gifos .contenedor-resultados .gift .contenedor-info-tools .tools .icon-tools .icon-escalar {
   width: 35px;
   height: 35px;
-  background: url("/gifos/imagenes/icon-max-normal.svg");
+  background: url("/imagenes/icon-max-normal.svg");
   background-repeat: no-repeat;
 }
 
 .main .mis-gifos .contenedor-resultados .gift .contenedor-info-tools .tools .icon-tools .icon-escalar:hover {
-  background: url("/gifos/imagenes/icon-max-hover.svg");
+  background: url("/imagenes/icon-max-hover.svg");
   background-repeat: no-repeat;
 }
 
@@ -2147,14 +2147,14 @@ body.dark .main .buscador .contenedor .contenedor-buscador input {
   cursor: pointer;
   -webkit-transition: 1s ease all;
   transition: 1s ease all;
-  background: url("/gifos/imagenes/close.svg");
+  background: url("/imagenes/close.svg");
   background-repeat: no-repeat;
   width: 14px;
   height: 14px;
 }
 
 body.dark .main .buscador .contenedor .contenedor-buscador .contenedor-buscador-2 .btn-cancel {
-  background: url("/gifos/imagenes/close-modo-noct.svg");
+  background: url("/imagenes/close-modo-noct.svg");
   width: 14px;
   height: 14px;
   background-repeat: no-repeat;
@@ -2166,12 +2166,12 @@ body.dark .main .buscador .contenedor .contenedor-buscador .contenedor-buscador-
   display: none;
   width: 20px;
   height: 20px;
-  background: url("/gifos/imagenes/icon-search.svg");
+  background: url("/imagenes/icon-search.svg");
   background-repeat: no-repeat;
 }
 
 body.dark .main .buscador .contenedor .contenedor-buscador .contenedor-buscador-2 .icon-serch-left {
-  background: url("/gifos/imagenes/search-suge.svg");
+  background: url("/imagenes/search-suge.svg");
   background-repeat: no-repeat;
 }
 
@@ -2180,13 +2180,13 @@ body.dark .main .buscador .contenedor .contenedor-buscador .contenedor-buscador-
   transition: 1s ease all;
   width: 20px;
   height: 20px;
-  background: url("/gifos/imagenes/icon-search.svg");
+  background: url("/imagenes/icon-search.svg");
   background-repeat: no-repeat;
   cursor: pointer;
 }
 
 body.dark .main .buscador .contenedor .contenedor-buscador .contenedor-buscador-2 .icon-serch-right {
-  background: url("/gifos/imagenes/icon-search-modo-noct.svg");
+  background: url("/imagenes/icon-search-modo-noct.svg");
   background-repeat: no-repeat;
   cursor: pointer;
 }
@@ -2231,7 +2231,7 @@ body.dark .main .buscador .contenedor .contenedor-buscador .contenedor-buscador-
 }
 
 .main .buscador .contenedor .contenedor-buscador .contenedor-sugerencias .sugerencia .sugerencia-img div {
-  background: url("/gifos/imagenes/search-suge.svg");
+  background: url("/imagenes/search-suge.svg");
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
@@ -2409,12 +2409,12 @@ body.dark .main .resultados .modal {
   right: 45px;
   width: 30px;
   height: 30px;
-  background: url("/gifos/imagenes/close.svg");
+  background: url("/imagenes/close.svg");
   background-repeat: no-repeat;
 }
 
 body.dark .main .resultados .modal .close-modal {
-  background: url("/gifos/imagenes/close-modo-noct.svg");
+  background: url("/imagenes/close-modo-noct.svg");
   background-repeat: no-repeat;
 }
 
@@ -2453,19 +2453,19 @@ body.dark .main .resultados .modal .contenedor-tools-max .informacion p {
 .main .resultados .modal .contenedor-tools-max .icon-tools .icon-favorito-modal {
   width: 35px;
   height: 35px;
-  background: url("/gifos/imagenes/icon-fav.svg");
+  background: url("/imagenes/icon-fav.svg");
   background-repeat: no-repeat;
 }
 
 .main .resultados .modal .contenedor-tools-max .icon-tools .icon-favorito-modal:hover {
-  background: url("/gifos/imagenes/icon-fav-hover.svg");
+  background: url("/imagenes/icon-fav-hover.svg");
   background-repeat: no-repeat;
 }
 
 .main .resultados .modal .contenedor-tools-max .icon-tools .icon-favorito-modal.actived {
   width: 32px;
   height: 32px;
-  background: url("/gifos/imagenes/icon-fav-active.svg") #ffffff;
+  background: url("/imagenes/icon-fav-active.svg") #ffffff;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -2473,12 +2473,12 @@ body.dark .main .resultados .modal .contenedor-tools-max .informacion p {
 .main .resultados .modal .contenedor-tools-max .icon-tools .icon-descargar {
   width: 35px;
   height: 35px;
-  background: url("/gifos/imagenes/icon-download.svg");
+  background: url("/imagenes/icon-download.svg");
   background-repeat: no-repeat;
 }
 
 .main .resultados .modal .contenedor-tools-max .icon-tools .icon-descargar:hover {
-  background: url("/gifos/imagenes/icon-download-hover.svg");
+  background: url("/imagenes/icon-download-hover.svg");
   background-repeat: no-repeat;
 }
 
@@ -2605,19 +2605,19 @@ body.dark .main .resultados .contenedor-titulo-busqueda .titulo-busqueda {
 .main .resultados .contenedor-resultados .gift .contenedor-info-tools .tools .icon-tools .icon-favorito {
   width: 35px;
   height: 35px;
-  background: url("/gifos/imagenes/icon-fav.svg");
+  background: url("/imagenes/icon-fav.svg");
   background-repeat: no-repeat;
 }
 
 .main .resultados .contenedor-resultados .gift .contenedor-info-tools .tools .icon-tools .icon-favorito:hover {
-  background: url("/gifos/imagenes/icon-fav-hover.svg");
+  background: url("/imagenes/icon-fav-hover.svg");
   background-repeat: no-repeat;
 }
 
 .main .resultados .contenedor-resultados .gift .contenedor-info-tools .tools .icon-tools .icon-favorito.actived {
   width: 33px;
   height: 33px;
-  background: url("/gifos/imagenes/icon-fav-active.svg") #ffffff;
+  background: url("/imagenes/icon-fav-active.svg") #ffffff;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 5px;
@@ -2626,24 +2626,24 @@ body.dark .main .resultados .contenedor-titulo-busqueda .titulo-busqueda {
 .main .resultados .contenedor-resultados .gift .contenedor-info-tools .tools .icon-tools .icon-descargar {
   width: 35px;
   height: 35px;
-  background: url("/gifos/imagenes/icon-download.svg");
+  background: url("/imagenes/icon-download.svg");
   background-repeat: no-repeat;
 }
 
 .main .resultados .contenedor-resultados .gift .contenedor-info-tools .tools .icon-tools .icon-descargar:hover {
-  background: url("/gifos/imagenes/icon-download-hover.svg");
+  background: url("/imagenes/icon-download-hover.svg");
   background-repeat: no-repeat;
 }
 
 .main .resultados .contenedor-resultados .gift .contenedor-info-tools .tools .icon-tools .icon-escalar {
   width: 35px;
   height: 35px;
-  background: url("/gifos/imagenes/icon-max-normal.svg");
+  background: url("/imagenes/icon-max-normal.svg");
   background-repeat: no-repeat;
 }
 
 .main .resultados .contenedor-resultados .gift .contenedor-info-tools .tools .icon-tools .icon-escalar:hover {
-  background: url("/gifos/imagenes/icon-max-hover.svg");
+  background: url("/imagenes/icon-max-hover.svg");
   background-repeat: no-repeat;
 }
 
@@ -2897,18 +2897,18 @@ body.dark .main .trending-gifos .contenedor p {
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  background: url("/gifos/imagenes/button-slider-left.svg");
+  background: url("/imagenes/button-slider-left.svg");
   background-repeat: no-repeat;
 }
 
 .main .trending-gifos .contenedor .contenedor-resultados .sliderLeft:hover {
-  background: url("/gifos/imagenes/button-slider-left-hover.svg");
+  background: url("/imagenes/button-slider-left-hover.svg");
   background-repeat: no-repeat;
   cursor: pointer;
 }
 
 body.dark .main .trending-gifos .contenedor .contenedor-resultados .sliderLeft {
-  background: url("/gifos/imagenes/button-slider-left-md-noct.svg");
+  background: url("/imagenes/button-slider-left-md-noct.svg");
   background-repeat: no-repeat;
 }
 
@@ -2921,18 +2921,18 @@ body.dark .main .trending-gifos .contenedor .contenedor-resultados .sliderLeft {
   display: flex;
   position: absolute;
   right: 30px;
-  background: url("/gifos/imagenes/Button-Slider-right.svg");
+  background: url("/imagenes/Button-Slider-right.svg");
   background-repeat: no-repeat;
 }
 
 .main .trending-gifos .contenedor .contenedor-resultados .sliderRight:hover {
-  background: url("/gifos/imagenes/Button-Slider-right-hover.svg");
+  background: url("/imagenes/Button-Slider-right-hover.svg");
   background-repeat: no-repeat;
   cursor: pointer;
 }
 
 body.dark .main .trending-gifos .contenedor .contenedor-resultados .sliderRight {
-  background: url("/gifos/imagenes/button-slider-right-md-noct.svg");
+  background: url("/imagenes/button-slider-right-md-noct.svg");
   background-repeat: no-repeat;
 }
 
@@ -2988,19 +2988,19 @@ body.dark .main .trending-gifos .contenedor .contenedor-resultados .sliderRight 
 .main .trending-gifos .contenedor .contenedor-resultados .contenedor-gifos .gift .contenedor-info-tools .tools .icon-tools .icon-favorito {
   width: 35px;
   height: 35px;
-  background: url("/gifos/imagenes/icon-fav.svg");
+  background: url("/imagenes/icon-fav.svg");
   background-repeat: no-repeat;
 }
 
 .main .trending-gifos .contenedor .contenedor-resultados .contenedor-gifos .gift .contenedor-info-tools .tools .icon-tools .icon-favorito:hover {
-  background: url("/gifos/imagenes/icon-fav-hover.svg");
+  background: url("/imagenes/icon-fav-hover.svg");
   background-repeat: no-repeat;
 }
 
 .main .trending-gifos .contenedor .contenedor-resultados .contenedor-gifos .gift .contenedor-info-tools .tools .icon-tools .icon-favorito.actived {
   width: 32.5px;
   height: 32.5px;
-  background: url("/gifos/imagenes/icon-fav-active.svg") #ffffff;
+  background: url("/imagenes/icon-fav-active.svg") #ffffff;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 5px;
@@ -3009,24 +3009,24 @@ body.dark .main .trending-gifos .contenedor .contenedor-resultados .sliderRight 
 .main .trending-gifos .contenedor .contenedor-resultados .contenedor-gifos .gift .contenedor-info-tools .tools .icon-tools .icon-descargar {
   width: 35px;
   height: 35px;
-  background: url("/gifos/imagenes/icon-download.svg");
+  background: url("/imagenes/icon-download.svg");
   background-repeat: no-repeat;
 }
 
 .main .trending-gifos .contenedor .contenedor-resultados .contenedor-gifos .gift .contenedor-info-tools .tools .icon-tools .icon-descargar:hover {
-  background: url("/gifos/imagenes/icon-download-hover.svg");
+  background: url("/imagenes/icon-download-hover.svg");
   background-repeat: no-repeat;
 }
 
 .main .trending-gifos .contenedor .contenedor-resultados .contenedor-gifos .gift .contenedor-info-tools .tools .icon-tools .icon-escalar {
   width: 35px;
   height: 35px;
-  background: url("/gifos/imagenes/icon-max-normal.svg");
+  background: url("/imagenes/icon-max-normal.svg");
   background-repeat: no-repeat;
 }
 
 .main .trending-gifos .contenedor .contenedor-resultados .contenedor-gifos .gift .contenedor-info-tools .tools .icon-tools .icon-escalar:hover {
-  background: url("/gifos/imagenes/icon-max-hover.svg");
+  background: url("/imagenes/icon-max-hover.svg");
   background-repeat: no-repeat;
 }
 
