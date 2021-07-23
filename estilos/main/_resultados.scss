@@ -1,4 +1,4 @@
-//Generales
+//Responsive
 @keyframes zoom {
     from{transform: scale(0);}
     to{transform: scale(1);}
@@ -323,7 +323,8 @@
     }
 }
 }
-// Inicio vista mobile
+
+//Generales
 @media screen and(min-width:600px){
     .main{
         .resultados{
@@ -334,9 +335,7 @@
     }
 }
 
-//Fin vista mobile
 
-//Vista tablet
 
 @media screen and(min-width:968px){
     .main{

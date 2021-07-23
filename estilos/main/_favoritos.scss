@@ -1,4 +1,4 @@
-//Estilos generales
+
 .main{
     .favoritos{
         margin-top: 5px;
@@ -297,7 +297,7 @@
 }
     }
 }
-// Inicio vista mobile
+
 @media screen and(min-width:600px){
     .main{
         .favoritos{
@@ -309,9 +309,6 @@
 }
 
 
-//Fin vista mobile
-
-//Inicio vista tablet
 @media screen and (min-width:968px){
     .main{
         .favoritos{
@@ -344,5 +341,3 @@
         }
     }
 }
-
-// Fin vista tablet 

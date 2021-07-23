@@ -1,5 +1,5 @@
-//Generales
 
+// Responsive
 .main{
     .mis-gifos{
         margin-top: 5px;
@@ -299,7 +299,7 @@
 }
     }
 }
-//Inicio vista mobile
+//Generales
 @media screen and(min-width:600px){
     .main{
         .mis-gifos{
@@ -309,10 +309,6 @@
         }
     }
 }
-
-//Fin vista mobile
-
-//Vista tablet
 
 @media screen and (min-width:968px){
     .main{

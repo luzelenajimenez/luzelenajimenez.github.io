@@ -2885,55 +2885,6 @@ body.dark .main .trending-gifos .contenedor p {
       -ms-flex-pack: start;
           justify-content: flex-start;
   margin-top: 32px;
-  margin-right: 80px;
-}
-
-.main .trending-gifos .contenedor .contenedor-resultados .sliderLeft {
-  width: 54px;
-  height: 54px;
-  left: 50px;
-  margin-top: 105px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  background: url("/imagenes/button-slider-left.svg");
-  background-repeat: no-repeat;
-}
-
-.main .trending-gifos .contenedor .contenedor-resultados .sliderLeft:hover {
-  background: url("/imagenes/button-slider-left-hover.svg");
-  background-repeat: no-repeat;
-  cursor: pointer;
-}
-
-body.dark .main .trending-gifos .contenedor .contenedor-resultados .sliderLeft {
-  background: url("/imagenes/button-slider-left-md-noct.svg");
-  background-repeat: no-repeat;
-}
-
-.main .trending-gifos .contenedor .contenedor-resultados .sliderRight {
-  width: 54px;
-  height: 54px;
-  margin-top: 105px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  right: 30px;
-  background: url("/imagenes/Button-Slider-right.svg");
-  background-repeat: no-repeat;
-}
-
-.main .trending-gifos .contenedor .contenedor-resultados .sliderRight:hover {
-  background: url("/imagenes/Button-Slider-right-hover.svg");
-  background-repeat: no-repeat;
-  cursor: pointer;
-}
-
-body.dark .main .trending-gifos .contenedor .contenedor-resultados .sliderRight {
-  background: url("/imagenes/button-slider-right-md-noct.svg");
-  background-repeat: no-repeat;
 }
 
 .main .trending-gifos .contenedor .contenedor-resultados .contenedor-gifos {
@@ -2943,7 +2894,7 @@ body.dark .main .trending-gifos .contenedor .contenedor-resultados .sliderRight 
   max-height: 275px;
   min-height: 140px;
   min-width: 200px;
-  margin-left: 20px;
+  padding: 10px;
   overflow: hidden;
 }
 
@@ -3079,6 +3030,8 @@ body.dark .main .trending-gifos {
   font-family: 'Montserrat';
   font-size: 16px;
   margin-top: 3px;
+  width: auto;
+  height: 200px;
 }
 
 body.dark .main .contenedor-texto-trending p {
@@ -3107,15 +3060,50 @@ body.dark .main .contenedor-texto-trending p {
             justify-content: center;
     overflow: hidden;
   }
-  .main .trending-gifos .contenedor .contenedor-resultados .btn-slider-left {
-    display: block;
+  .main .trending-gifos .contenedor .contenedor-resultados .sliderLeft {
+    width: 54px;
+    height: 54px;
+    left: 50px;
+    margin-top: 105px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    background: url("/imagenes/button-slider-left.svg");
+    background-repeat: no-repeat;
   }
-  .main .trending-gifos .contenedor .contenedor-resultados .btn-slider-right {
-    display: block;
-    margin-left: 29px;
+  .main .trending-gifos .contenedor .contenedor-resultados .sliderLeft:hover {
+    background: url("/imagenes/button-slider-left-hover.svg");
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  body.dark .main .trending-gifos .contenedor .contenedor-resultados .sliderLeft {
+    background: url("/imagenes/button-slider-left-md-noct.svg");
+    background-repeat: no-repeat;
+  }
+  .main .trending-gifos .contenedor .contenedor-resultados .sliderRight {
+    width: 54px;
+    height: 54px;
+    margin-top: 105px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    right: 30px;
+    background: url("/imagenes/Button-Slider-right.svg");
+    background-repeat: no-repeat;
+  }
+  .main .trending-gifos .contenedor .contenedor-resultados .sliderRight:hover {
+    background: url("/imagenes/Button-Slider-right-hover.svg");
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  body.dark .main .trending-gifos .contenedor .contenedor-resultados .sliderRight {
+    background: url("/imagenes/button-slider-right-md-noct.svg");
+    background-repeat: no-repeat;
   }
   .main .trending-gifos .contenedor .contenedor-resultados .contenedor-gifos {
-    margin-left: 29px;
+    padding: 10px;
   }
   .main .trending-gifos .contenedor .contenedor-resultados .contenedor-gifos .gift .contenedor-info-tools {
     display: -webkit-box;

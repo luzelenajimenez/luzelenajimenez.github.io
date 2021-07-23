@@ -1,4 +1,4 @@
-//Generales
+//Mobile
 .main{
     .trending-gifos{
         background: #F3F5F8 ;
@@ -35,54 +35,8 @@
                 min-width: 250px;
                 justify-content:flex-start ;
                 margin-top: 32px;
-                margin-right: 80px;
+
                
-              
-                .sliderLeft{
-                    width: 54px;
-                    height: 54px;
-                    left: 50px;
-                    margin-top: 105px;
-                    display: flex;position: absolute;
-                    background:url('/imagenes/button-slider-left.svg') ;
-                    background-repeat: no-repeat;
-
-                    
-                    &:hover{
-                        background: url('/imagenes/button-slider-left-hover.svg');
-                        background-repeat: no-repeat;
-                        cursor: pointer;
-                    }
-                    body.dark &{
-                        background: url('/imagenes/button-slider-left-md-noct.svg');
-                        background-repeat: no-repeat;
-                    }
-                }
-                
-                
-               
-
-                .sliderRight{
-                    width: 54px;
-                    height: 54px;
-                    margin-top: 105px;
-                    display: flex;
-                    position: absolute;
-                    right: 30px;
-                    background:url('/imagenes/Button-Slider-right.svg') ;
-                    background-repeat: no-repeat;
-
-                    
-                    &:hover{
-                        background: url('/imagenes/Button-Slider-right-hover.svg');
-                        background-repeat: no-repeat;
-                        cursor: pointer;
-                    }
-                    body.dark &{
-                        background: url('/imagenes/button-slider-right-md-noct.svg');
-                        background-repeat: no-repeat;
-                    }
-                }
                 
                 .contenedor-gifos{
                     position: relative;
@@ -91,7 +45,7 @@
                      max-height: 275px;
                      min-height: 140px;
                      min-width: 200px;
-                     margin-left: 20px;
+                     padding: 10px;
                      overflow: hidden;
 
 
@@ -215,6 +169,10 @@
             font-family:'Montserrat';
             font-size: 16px;
             margin-top: 3px;
+            width: auto;
+            height: 200px;
+
+
         }
         body.dark &{
             p{
@@ -225,8 +183,7 @@
     }
 }
 
-
-//Responsive
+//Generales
 @media screen and(min-width: 968px){
     .main{
         .trending-gifos{
@@ -247,15 +204,53 @@
                    margin-top: 55px;
                    justify-content: center;
                    overflow: hidden;
-                   .btn-slider-left{
-                       display: block;
-                   }
-                   .btn-slider-right{
-                       display: block;
-                       margin-left: 29px;
-                   }
+                   
+                  
+                   .sliderLeft{
+                    width: 54px;
+                    height: 54px;
+                    left: 50px;
+                    margin-top: 105px;
+                    display: flex;
+                    position: absolute;
+                    background:url('/imagenes/button-slider-left.svg') ;
+                    background-repeat: no-repeat;
+
+                    
+                    &:hover{
+                        background: url('/imagenes/button-slider-left-hover.svg');
+                        background-repeat: no-repeat;
+                        cursor: pointer;
+                    }
+                    body.dark &{
+                        background: url('/imagenes/button-slider-left-md-noct.svg');
+                        background-repeat: no-repeat;
+                    }
+                }
+
+                .sliderRight{
+                    width: 54px;
+                    height: 54px;
+                    margin-top: 105px;
+                    display: flex;
+                    position: absolute;
+                    right: 30px;
+                    background:url('/imagenes/Button-Slider-right.svg') ;
+                    background-repeat: no-repeat;
+
+                    
+                    &:hover{
+                        background: url('/imagenes/Button-Slider-right-hover.svg');
+                        background-repeat: no-repeat;
+                        cursor: pointer;
+                    }
+                    body.dark &{
+                        background: url('/imagenes/button-slider-right-md-noct.svg');
+                        background-repeat: no-repeat;
+                    }
+                }
                    .contenedor-gifos{
-                       margin-left: 29px;
+                       padding: 10px;
                      .gift{
                          .contenedor-info-tools{
                             display: flex; 

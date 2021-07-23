@@ -1,13 +1,15 @@
-//Inicio Footer Mobile
+
 @media screen and(min-width:968px){
     footer{
         .footer{
+
             height: 116px;
             display: flex;
             position: relative;
             justify-content: space-between;
             margin-top: 0px;
             .contenedor{
+
                 flex-direction: row;
                 align-items: center;
 
@@ -20,7 +22,6 @@
 
             }
             .contenedor-redes-sociales{
-                
                 display: flex;
                 position: absolute;
                 left: 230px;
@@ -38,8 +39,8 @@
 
 
 
-//Fin Footer mobile
 
+//Footer Mobile
 footer{
     border-bottom: 5px solid #572EE5;
 
@@ -65,6 +66,7 @@ footer{
                 justify-content: center;
                 align-items: center;
                 margin-right: 20px;
+
                 .facebook{
                     width: 21px;
                     height: 21px;
