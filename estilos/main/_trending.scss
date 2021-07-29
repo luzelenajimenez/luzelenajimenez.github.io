@@ -6,7 +6,7 @@
         min-height: 500px;
         margin-top: 45px;
         padding-top: 46px;
-  
+        
         .contenedor{
             h2{
                 font-family: 'Montserrat';
@@ -28,26 +28,29 @@
                     color: #ffffff;
                 }
             }
+           
             .contenedor-resultados{
-                width: 90%;
+                width: 80%;
                 margin: 0 auto;
                 display: flex;
-                min-width: 250px;
+                min-width: 140px;
                 justify-content:flex-start ;
                 margin-top: 32px;
+                overflow-x: scroll;
+                overflow-y: hidden;
+                white-space: nowrap;
+               
 
                
                 
                 .contenedor-gifos{
                     position: relative;
-                     width: 100%;
                      max-width: 357px;
                      max-height: 275px;
                      min-height: 140px;
-                     min-width: 200px;
-                     padding: 10px;
-                     overflow: hidden;
-
+                     min-width: 275px;
+                     margin-left: 2%;
+                     overflow: hidden;                        
 
                     .gift{
                         width: 100%;
@@ -148,8 +151,8 @@
                              
                           }
                           .imagen{
-                              width: 100%;
-                              height: 100%;
+                            width: 500px;
+                            height: 300px;
                           }
                        }
 
@@ -187,7 +190,10 @@
             min-height: 640px;
             margin-top: 26px;
             padding-top: 67px;
+            
+            
            .contenedor{
+
                h2{
                    font-size: 25px;
                    line-height: 30px;
@@ -198,21 +204,22 @@
                    font-weight: 400;
                }
                .contenedor-resultados{
+                   width: 65%;
                    margin-top: 55px;
-                   justify-content: center;
+                   justify-content: flex-start;
                    overflow: hidden;
-                   
-                  
+                   scroll-behavior: smooth;
+
                    .sliderLeft{
                     width: 54px;
                     height: 54px;
-                    left: 50px;
+                    left: 100px;
                     margin-top: 105px;
                     display: flex;
-                    position: absolute;
+                    position: absolute;  
                     background:url('/imagenes/button-slider-left.svg') ;
                     background-repeat: no-repeat;
-
+    
                     
                     &:hover{
                         background: url('/imagenes/button-slider-left-hover.svg');
@@ -224,17 +231,17 @@
                         background-repeat: no-repeat;
                     }
                 }
-
+    
                 .sliderRight{
                     width: 54px;
                     height: 54px;
                     margin-top: 105px;
                     display: flex;
                     position: absolute;
-                    right: 30px;
+                    right: 70px;    
                     background:url('/imagenes/Button-Slider-right.svg') ;
                     background-repeat: no-repeat;
-
+    
                     
                     &:hover{
                         background: url('/imagenes/Button-Slider-right-hover.svg');
@@ -248,6 +255,7 @@
                 }
                    .contenedor-gifos{
                        padding: 10px;
+                      
                      .gift{
                          .contenedor-info-tools{
                             display: flex; 
@@ -274,7 +282,7 @@
 
 @media screen and (min-width:800px){
 
-    .trending-gifos{
+    .trending-gifos{        
         .contenedor{
             p{
                 br{

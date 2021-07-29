@@ -25,6 +25,7 @@ let contenedorSugerencias  = document.querySelector('.contenedor-sugerencias');
 let userModal              = document.querySelector('.user-modal');
 let tituloModal            = document.querySelector('.titulo-modal');
 let trendContainer         =document.querySelector('.trendContainer')
+let contenedorGifos = document.getElementsByClassName('contenedor-gifos');
 let apikey                 = '23DdXlqxN1Jjk8o8wO7TLcPhm4Uxv2e1';
 let favoritos              = [];
 let suma                   = 12;
@@ -108,7 +109,6 @@ const autoCompletar = async(word)=>{
 }
 
 
-
 const llamarAutoCompletar = (palabra)=>{
     if(inputBuscador.value == ''){
         eliminarSugerencias();
@@ -159,7 +159,7 @@ const trendingGifos = async(limite)=>{
   }
 
 }
-trendingGifos(3).then((resp)=>{
+trendingGifos().then((resp)=>{
     let data = resp.data ;
     data.forEach((gif)=>{
         let imgUrl = gif.images.downsized.url;
@@ -199,20 +199,14 @@ const dibujarTrending = (url,usuario,decripcion, alt,id)=>{
         </div>
     </div>
        <img  class="imagen "  id="${id}" src="${url}" alt="${alt}" >
-    
-   
-</div>`
+    </div>
+`
 let div = document.createElement('div')
 div.classList.add('contenedor-gifos');
 div.innerHTML = html
 contenedorTrending.append(div)
 contenedorTrending.insertBefore(div,right)
-
-
 }
-
-
-
 
 
 //Agregar buscador en la parte superior izquierda
@@ -286,6 +280,19 @@ const eventos = ()=>{
     verMas.addEventListener('click',()=>{ 
         aggMasGifs()
     })
+
+     //TRENDING
+     const buttonL = document.querySelector('.sliderLeft');
+     const buttonR = document.querySelector('.sliderRight');
+ 
+     buttonL.addEventListener('click', function(event) { 
+         contenedorTrending.scrollLeft -= 350;
+     });
+ 
+     buttonR.addEventListener('click', function(event) { 
+         contenedorTrending.scrollLeft += 350;
+     });
+ 
     
 }
 
