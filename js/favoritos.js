@@ -104,9 +104,27 @@ const llamarFavoritos = ()=>{
         
         
     }
-verMas()
+ verMas()
 
 }
+
+const event = ()=>{
+    
+    //TRENDING
+    const buttonL = document.querySelector('.sliderLeft');
+    const buttonR = document.querySelector('.sliderRight');
+
+    buttonL.addEventListener('click', function(event) { 
+        contenedorTrending.scrollLeft -= 350;
+    });
+
+    buttonR.addEventListener('click', function(event) { 
+        contenedorTrending.scrollLeft += 350;
+
+    });
+
+}
+event();
 
 
 // Agregar mas gifs con el boton Ver Mas
@@ -235,7 +253,7 @@ const trendingGifos = async(limite)=>{
     }
   
   }
-  trendingGifos(3).then((resp)=>{
+  trendingGifos().then((resp)=>{
       let data = resp.data ;
       data.forEach((gif)=>{
           let imgUrl = gif.images.downsized.url;
@@ -275,3 +293,5 @@ const trendingGifos = async(limite)=>{
 
 llamarFavoritos();
 ocultarDivs()
+
+

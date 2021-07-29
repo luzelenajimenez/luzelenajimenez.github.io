@@ -220,7 +220,7 @@ const trendingGifos = async(limite)=>{
     }
   
   }
-  trendingGifos(3).then((resp)=>{
+  trendingGifos().then((resp)=>{
       let data = resp.data ;
       data.forEach((gif)=>{
           let imgUrl = gif.images.downsized.url;
@@ -287,3 +287,21 @@ if(contenedorResultados.children.length == 0 ){
     BotonverMas.style.display ='flex'
 
 }
+const evento = ()=>{
+    
+    //TRENDING
+    const buttonL1 = document.querySelector('.sliderLeft');
+    const buttonR1 = document.querySelector('.sliderRight');
+
+    buttonL1.addEventListener('click', function(event) { 
+        contenedorTrending.scrollLeft -= 350;
+    });
+
+    buttonR1.addEventListener('click', function(event) { 
+        contenedorTrending.scrollLeft += 350;
+
+    });
+
+   
+}
+evento();
